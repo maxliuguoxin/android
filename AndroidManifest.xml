@@ -195,13 +195,13 @@
         <activity android:name=".ui.activity.GenericExplanationActivity"/>
         <activity android:name=".ui.activity.ErrorsWhileCopyingHandlerActivity"
             android:theme="@style/Theme.ownCloud"/>
-        
+
         <activity android:name=".ui.activity.LogHistoryActivity"/>
 
         <activity android:name=".ui.errorhandling.ErrorShowActivity" />
         <activity android:name=".ui.activity.UploadListActivity"
                   android:theme="@style/Theme.ownCloud.Toolbar.Drawer"/>
-        
+
         <receiver android:name=".broadcastreceivers.ConnectivityActionReceiver"
             android:enabled="true" android:label="ConnectivityActionReceiver">
             <intent-filter>
@@ -252,7 +252,10 @@
         <activity android:name=".ui.activity.ManageSpaceActivity"
                   android:label="@string/manage_space_title"
                   android:theme="@style/Theme.ownCloud" />
-        <activity android:name=".ui.preview.PlayerVideoActivity"></activity>
+        <activity android:name=".ui.preview.PlayerVideoActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:launchMode="singleTop">
+        </activity>
     </application>
 
 </manifest>
