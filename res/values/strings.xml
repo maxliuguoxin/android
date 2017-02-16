@@ -169,7 +169,7 @@
     <string name="foreign_files_remote_text">"Remote: %1$s"</string>
     <string name="upload_query_move_foreign_files">There is not enough space to copy the selected files into the %1$s folder. Would you like to move them instead? </string>
     <string name="pass_code_enter_pass_code">Please insert your passcode</string>
-    
+
     <string name="pass_code_configure_your_pass_code">Enter your passcode</string>
     <string name="pass_code_configure_your_pass_code_explanation">The passcode will be requested every time the app is started</string>
     <string name="pass_code_reenter_your_pass_code">Please reenter your passcode</string>
@@ -178,7 +178,7 @@
     <string name="pass_code_wrong">Incorrect passcode</string>
     <string name="pass_code_removed">Passcode removed</string>
     <string name="pass_code_stored">Passcode stored</string>
-    
+
     <string name="media_notif_ticker">"%1$s music player"</string>
     <string name="media_state_playing">"%1$s (playing)"</string>
     <string name="media_state_loading">"%1$s (loading)"</string>
@@ -260,10 +260,10 @@
     <string name="filedisplay_no_file_selected">No file was selected</string>
     <string name="activity_chooser_title">Send link to &#8230;</string>
     <string name="wait_for_tmp_copy_from_private_storage">Copying file from private storage</string>
-    
-    <string name="oauth_check_onoff">Login with oAuth2</string> 
-    <string name="oauth_login_connection">Connecting to oAuth2 server…</string>    
-        
+
+    <string name="oauth_check_onoff">Login with oAuth2</string>
+    <string name="oauth_login_connection">Connecting to oAuth2 server…</string>
+
     <string name="ssl_validator_header">The identity of the server could not be verified</string>
     <string name="ssl_validator_reason_cert_not_trusted">- The server certificate is not trusted</string>
     <string name="ssl_validator_reason_cert_expired">- The server certificate expired</string>
@@ -307,7 +307,7 @@
     <string name="conflict_keep_both">Keep both</string>
     <string name="conflict_use_local_version">local version</string>
     <string name="conflict_use_server_version">server version</string>
-    
+
     <string name="preview_image_description">Image preview</string>
     <string name="preview_image_error_unknown_format">This image cannot be shown</string>
 
@@ -388,7 +388,7 @@
 
 	<string name="shared_subject_header">shared</string>
 	<string name="with_you_subject_header">with you</string>
-    
+
 	<string name="subject_user_shared_with_you">%1$s shared \"%2$s\" with you</string>
     <string name="subject_shared_with_you">\"%1$s\" has been shared with you</string>
 
