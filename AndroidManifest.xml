@@ -252,6 +252,7 @@
         <activity android:name=".ui.activity.ManageSpaceActivity"
                   android:label="@string/manage_space_title"
                   android:theme="@style/Theme.ownCloud" />
+        <activity android:name=".ui.preview.PlayerVideoActivity"></activity>
     </application>
 
 </manifest>
